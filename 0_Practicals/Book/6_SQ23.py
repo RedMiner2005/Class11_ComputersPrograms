@@ -13,24 +13,24 @@ while True:
     print("4. For area of a square")
 
     ch = int(input("Enter your choice (Enter 0 to exit): "))
-    if (ch == 1):
+    if ch == 1:
         r = int(input("Enter the radius of the circle: "))
         a = 3.14 * r * r
         print("Area of the circle:", a)
-    elif (ch == 2):
+    elif ch == 2:
         l = int(input("Enter the length: "))
         b = int(input("Enter the breadth: "))
         a = l * b
         print("Area of the rectangle:", a)
-    elif (ch == 3):
+    elif ch == 3:
         r = int(input("Enter the radius of the circle: "))
         c = 2 * (int(3.14 * r))
         print("Circumference of the circle:", c)
-    elif (ch == 4):
+    elif ch == 4:
         l = int(input("Enter the side of the square: "))
         a = l * l
         print("Area of square:", a)
-    elif (ch == 0):
+    elif ch == 0:
         break
     else:
         print("Invalid option!")

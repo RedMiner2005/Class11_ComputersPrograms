@@ -8,9 +8,9 @@
 """
 
 i = 3
-while i >= 0:
+while (i >= 0):
     j = 3
-    while j >= 0:
+    while (j >= 0):
         print(5, end=" ")
         j = j - 1
     print()
